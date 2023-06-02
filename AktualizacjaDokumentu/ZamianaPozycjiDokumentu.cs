@@ -22,13 +22,13 @@ namespace AktualizacjaDokumentu
         W konfiguracji jest utworzony podrzędny dokument przyjęcia magazynowego
         można założyć, że jest to dokument PW
 
-        Na dokument PZ są kopiowane komplety, które są rozbijane na składniki,
+        Na dokument PW są kopiowane komplety, które są rozbijane na składniki,
 
         Składnikiami kompletu są inne komplety.
 
         Potrzbuję w momencie utworzenia dokument PW rozbić pozycję na składniki
 
-        Najlepiej zgyby to zrobić przed momentem wyświetlenia operatorowu dokuemntu PZ
+        Najlepiej zgyby to zrobić przed momentem wyświetlenia operatorowu dokuemntu PW
 
         Nie udało mi się zrobić tego za pomocą ITworzenieDokumentuHandlowego, więc musiałem zrobić to za pomocą Workera
         który wywoływany jest bezpośrednio z dokumentu ZO
